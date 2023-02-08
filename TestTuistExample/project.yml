@@ -1,0 +1,10 @@
+name: TestSwiftgenExample
+
+targets:
+  Example:
+    type: application
+    platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.foo.bar
+    sources: ../A/B
